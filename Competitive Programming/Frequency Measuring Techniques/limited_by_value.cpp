@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+// limit should not be very large
 void counFreq(int arr[], int n, int limit)
 {
     vector<int> count(limit+1, false);
